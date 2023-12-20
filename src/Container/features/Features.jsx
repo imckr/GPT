@@ -2,7 +2,7 @@ import React from 'react'
 import './features.css';
 import { Feature } from '../../Components';
 
-
+// Features Component
 const feaaturesData = [
   {
     title: "Improving end distrusts instantly",
