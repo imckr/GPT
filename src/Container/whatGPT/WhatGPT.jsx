@@ -1,5 +1,5 @@
-import React from "react";
-import "./whatGPT.css";
+import React from 'react'
+import './whatGPT.css'
 import { Feature } from "../../Components";
 
 const WhatGPT = () => {
@@ -32,7 +32,7 @@ const WhatGPT = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default WhatGPT;
+export default WhatGPT
