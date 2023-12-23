@@ -11,23 +11,25 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+
     text-align: left;
     margin-right: 5rem;
 }
 
 .gpt__features-heading h1 {
-    font-family: var(--font-family);
-    font-weight: 800;
     font-size: 34px;
     line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
 }
 
 .gpt__features-heading p {
-    font-family: var(--font-family);
-    font-weight: 500;
+    color: var(--color-subtext);
     font-size: 16px;
     line-height: 30px;
-    color: var(--color-subtext);
+    font-weight: 500;
+    font-family: var(--font-family);
+
     margin-top: 2rem;
 }
 
@@ -48,6 +50,7 @@
         margin: 0 0 2rem 0;
     }
 }
+
 
 @media screen and (max-width: 550px) {
     .gpt__features-heading h1 {
