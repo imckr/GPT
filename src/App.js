@@ -1,5 +1,5 @@
 import React from 'react';
-import { Article, Brand, Cta, Navbar, Feature } from './Components';
+import { Brand, Cta, Navbar } from './Components';
 import { Blog, Footer, Possibility, WhatGPT, Header, Features } from './Container';
 
 import './App.css';
