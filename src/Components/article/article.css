@@ -46,3 +46,10 @@
 .gpt__blog-container__article-content p:last-child {
     cursor: pointer;
 }
+
+@media screen and (max-width: 550px) {
+    .gpt__blog-container__article-content h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
